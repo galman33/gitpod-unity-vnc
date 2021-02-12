@@ -4,6 +4,8 @@ ENV DEBIAN_FRONTEND noninteractive
 ENV USER ubuntu
 ENV HOME /home/$USER
 
+USER root
+
 # Create new user for vnc login.
 RUN adduser $USER --disabled-password
 
