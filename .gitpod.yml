@@ -1,5 +1,5 @@
 image:
-  file: .gitpod.Dockerfile
+  file: chenjr0719/ubuntu-unity-novnc
 
 ports:
   - port: 6080
