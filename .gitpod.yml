@@ -1,4 +1,4 @@
-image: chenjr0719/ubuntu-unity-novnc
+image: gitpod/workspace-full-vnc
 
 ports:
   - port: 6080
