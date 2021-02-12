@@ -1,5 +1,4 @@
-image:
-  file: chenjr0719/ubuntu-unity-novnc
+image: chenjr0719/ubuntu-unity-novnc
 
 ports:
   - port: 6080
