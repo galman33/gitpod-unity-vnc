@@ -4,4 +4,4 @@ ports:
   - port: 6080
 
 tasks:
-  - init: sudo apt-get update & sudo ap-get install firefox & wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb & sudo apt install ./google-chrome-stable_current_amd64.deb
+  - init: sudo apt-get update & sudo apt-get install -y firefox & wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb & sudo apt install -y ./google-chrome-stable_current_amd64.deb
