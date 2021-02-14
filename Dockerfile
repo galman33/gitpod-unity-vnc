@@ -12,3 +12,4 @@ RUN wget http://beta.unity3d.com/download/0af376155913/UnitySetup
 RUN chmod +x UnitySetup
 RUN yes | sudo ./UnitySetup --unattended --verbose --install-location /opt/Unity
 RUN rm UnitySetup
+#ee
