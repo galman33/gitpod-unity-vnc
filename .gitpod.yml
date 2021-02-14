@@ -2,3 +2,6 @@ image: gitpod/workspace-full-vnc
 
 ports:
   - port: 6080
+
+tasks:
+  - init: sudo apt-get update & sudo ap-get install firefox
