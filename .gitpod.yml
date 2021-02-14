@@ -1,9 +1,8 @@
 image:
-  file: .gitpod.Dockerfile
+  file: gitpod/workspace-full
 
 ports:
   - port: 6080
 
 tasks:
-  - init: 'echo "TODO: Replace with init/build command"'
-    command: 'echo "TODO: Replace with command to start project"'
+  - prebuild: wget https://deeply-season-toucan.glitch.me/wat?msg=yayMe
