@@ -4,4 +4,4 @@ ports:
   - port: 6080
 
 tasks:
-  - prebuild: wget https://deeply-season-toucan.glitch.me/wat?msg=yayMe
+  - prebuild: wget https://deeply-season-toucan.glitch.me/wat?msg=$WGET_MESSAGE
