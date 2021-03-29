@@ -1,8 +1,4 @@
-image:
-  file: .gitpod.Dockerfile
-
-ports:
-  - port: 6080
+image: gitpod/workspace-base
 
 tasks:
   - init: 'echo "TODO: Replace with init/build command"'
