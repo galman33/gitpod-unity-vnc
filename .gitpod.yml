@@ -1,4 +1,4 @@
-image: ubuntu
+image: cm2network/steampipe
 
 tasks:
   - init: 'echo "TODO: Replace with init/build command"'
